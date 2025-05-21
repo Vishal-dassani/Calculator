@@ -1,0 +1,75 @@
+
+
+.flexme{
+    display: flex;
+    margin-top: 5px;
+
+}
+#container{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 50px 500px;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    
+}
+#top{
+    margin-bottom: 10px;
+}
+#txt{
+    width: 207px;
+    height: 60px;
+    margin-left: 5px;
+    color: white;
+    background-color: black;
+
+}
+#cancel{
+    margin-left: 10px;
+    padding: 25px 25px;
+}
+.butt{
+    background-color: rgba(48, 48, 48, 0.751);
+    padding: 10px 15px;
+    color: white;
+    
+   
+    border: 0px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.buttor{
+    background-color: #f7a422;
+    padding: 10px 15px;
+    color: white;
+    
+   
+    border: 0px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.buttgr{
+    background-color: gray;
+    padding: 10px 15px;
+    color: white;
+    
+   
+    border: 0px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.butt:active{
+    background-color: gray;
+}
+
+#allbuttons{
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px;
+    gap: 5px;
+}
